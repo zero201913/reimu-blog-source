@@ -1,9 +1,9 @@
 ---
-cover: https://tncache1-f1.v3mh.com/image/2025/10/26/b7525824a2116a75ae201336daaea95c.jpg
+cover: https://image.acg.lol/file/2025/11/09/reimu-3.jpg
 title: Cookie 与 Session 概念解析及应用场景
 date: 2025-10-15 18:00:00
-categories: Web技术
-description: 关于cookie和session的概念，以及在什么情况使用cookie和session。
+categories: Web开发
+excerpt: 关于cookie和session的概念，以及在什么情况使用cookie和session。
 ---
 ## 一、基本概念对比
 

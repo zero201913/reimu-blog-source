@@ -1,11 +1,14 @@
 ---
-cover: https://tncache1-f1.v3mh.com/image/2025/10/26/74ef64b707b3d1edd9a4a88c7dd6a9fe.png
+cover: https://image.acg.lol/file/2025/11/09/reimu-2.jpg
 title: Commons IO 和 Commons FileUpload 文件上传下载实现
 date: 2025-10-15 18:00:00
-categories: Java编程语言
-description: 通过传统的jsp+servlet+maven项目，来实现一个本地文件上传下载的功能，通过两个jar包来实现。
+categories: Web开发
+excerpt: 通过传统的jsp+servlet+maven项目，来实现一个本地文件上传下载的功能，通过两个jar包来实现
 ---
+
 ## 一、环境准备和依赖配置
+
+通过传统的jsp+servlet+maven项目，来实现一个本地文件上传下载的功能，通过两个jar包来实现。
 
 ### Maven 依赖
 ```xml

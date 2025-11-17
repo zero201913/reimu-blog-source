@@ -1,9 +1,9 @@
 ---
-cover: https://tncache1-f1.v3mh.com/image/2025/10/26/8ae14bd9ed5e1c98cbda9dc0872a1470.jpg
+cover: https://image.acg.lol/file/2025/11/09/reimu-7.jpg
 title: Java线程复习
 date: 2025-10-15 18:00:00
-categories: Java编程技术
-description: 线程是 Java 并发编程的核心，理解它对于编写高性能、响应式的应用程序至关重要。
+categories: Java编程语言
+excerpt: 线程是 Java 并发编程的核心，理解它对于编写高性能、响应式的应用程序至关重要。
 ---
 
 好的，我们来系统地复习 Java 线程相关的知识。线程是 Java 并发编程的核心，理解它对于编写高性能、响应式的应用程序至关重要。

@@ -1,9 +1,9 @@
 ---
-cover: https://tncache1-f1.v3mh.com/image/2025/10/26/d9a30670ea9c6ef1a20696bc3fcb1521.jpg
-title: 个人成长之路：从技术到生活的全面提升
+cover: https://image.acg.lol/file/2025/11/09/reimu-8.jpg
+title: jQuery 的复习指南
 date: 2025-10-15 18:00:00
-categories: Web技术
-description: jQuery 是一个快速、简洁的 JavaScript 库，它简化了 HTML 文档遍历、事件处理、动画和 Ajax 交互等操作。
+categories: Web开发
+excerpt: jQuery 是一个快速、简洁的 JavaScript 库，它简化了 HTML 文档遍历、事件处理、动画和 Ajax 交互等操作。
 ---
 
 ## 一、jQuery 概述与作用

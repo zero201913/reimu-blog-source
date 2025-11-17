@@ -1,9 +1,9 @@
 ---
-cover: https://tncache1-f1.v3mh.com/image/2025/10/26/6468f1851ffd405bdabb7f1a5869dd72.jpg
+cover: https://image.acg.lol/file/2025/11/09/reimu-1.jpg
 title: AJAX 复习指南
 date: 2025-10-15 18:00:00
-categories: Web技术
-description: AJAX（Asynchronous JavaScript and XML）是一种创建快速动态网页的技术，通过在后台与服务器进行少量数据交换，使网页实现异步更新。
+categories: Web开发
+excerpt: AJAX（Asynchronous JavaScript and XML）是一种创建快速动态网页的技术，通过在后台与服务器进行少量数据交换，使网页实现异步更新。
 ---
 ## 一、AJAX 概述与作用
 

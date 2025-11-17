@@ -1,12 +1,12 @@
 ---
-cover: https://tncache1-f1.v3mh.com/image/2025/10/26/8d1b903e9593fbc3687b15458ca6428a.png
+cover: https://image.acg.lol/file/2025/11/09/reimu-4.jpg
 title: Java Stream 流
 date: 2025-10-15 18:00:00
-categories: Java编程技术
-description: 这是一种在 Java 8 中引入的 API，用于以声明式方式处理数据集合（如 List、Set、Map 等）。它可以让你写出更简洁、更易读、更高效的代码。
+categories: Java编程语言
+excerpt: 这是一种在 Java 8 中引入的 API，用于以声明式方式处理数据集合（如 List、Set、Map 等）。它可以让你写出更简洁、更易读、更高效的代码。
 ---
 
-好的，我们来系统地复习一下 Java Stream 流。这是一种在 Java 8 中引入的 API，用于以声明式方式处理数据集合（如 List、Set、Map 等）。它可以让你写出更简洁、更易读、更高效的代码。
+我们来系统地复习一下 Java Stream 流。这是一种在 Java 8 中引入的 API，用于以声明式方式处理数据集合（如 List、Set、Map 等）。它可以让你写出更简洁、更易读、更高效的代码。
 
 ---
 
@@ -22,14 +22,6 @@ Stream（流）是一个来自数据源（如集合、数组）的元素队列�
 *   **只能遍历一次**：像迭代器一样，流在生命周期内只能被消费一次。一旦遍历结束，流就关闭了。如果你想再次操作，必须重新创建流。
 *   **可并行化**：流操作可以透明地利用多核架构，你只需要将 `stream()` 改为 `parallelStream()`，而逻辑代码无需改变。
 
-```mermaid
-graph TD
-    A[开始] --> B{条件判断}
-    B -->|是| C[执行操作1]
-    B -->|否| D[执行操作2]
-    C --> E[结束]
-    D --> E
-```
 
 **3. 流的操作流程**
 流的操作分为两个阶段，连接起来形成一个“流管道”。
@@ -82,6 +74,18 @@ List<String> result = employeeList.stream() // 1. 创建流
         .map(Employee::getName) // 4. 中间操作：将Employee对象映射为其姓名（String）
         .sorted() // 5. 中间操作：对姓名进行自然排序
         .collect(Collectors.toList()); // 6. 终端操作：将结果收集到List中
+```
+**stream流的流程图**
+
+```mermaid
+graph TD;
+    A[Start] --> B[Create Stream from employeeList];
+    B --> C[Filter by Department: 技术部];
+    C --> D[Filter by Age > 25];
+    D --> E[Map to Names];
+    E --> F[Sort Names];
+    F --> G[Collect to nameList];
+    G --> H[End];
 ```
 
 **代码分析：**
