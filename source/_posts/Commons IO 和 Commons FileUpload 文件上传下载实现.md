@@ -1,5 +1,5 @@
 ---
-cover: https://image.acg.lol/file/2025/11/09/reimu-2.jpg
+cover: https://pic.zero02.space/?tag=reimu&random=1&raw=1
 title: Commons IO 和 Commons FileUpload 文件上传下载实现
 date: 2025-10-15 18:00:00
 categories: Web开发

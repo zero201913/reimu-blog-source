@@ -1,5 +1,5 @@
 ---
-cover: https://image.acg.lol/file/2025/11/09/reimu-3.jpg
+cover: https://pic.zero02.space/?tag=reimu&random=1&raw=1
 title: Cookie 与 Session 概念解析及应用场景
 date: 2025-10-15 18:00:00
 categories: Web开发

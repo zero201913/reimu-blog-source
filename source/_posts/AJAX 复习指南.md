@@ -1,5 +1,5 @@
 ---
-cover: https://image.acg.lol/file/2025/11/09/reimu-1.jpg
+cover: https://pic.zero02.space/?tag=reimu&random=1&raw=1
 title: AJAX 复习指南
 date: 2025-10-15 18:00:00
 categories: Web开发
